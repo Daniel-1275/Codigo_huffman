@@ -1,4 +1,6 @@
-package principal;
+package huffman;
+
+
 
 public class Cadena {
     private final Letra letraIzquierda;

@@ -1,4 +1,4 @@
-package principal;
+package huffman;
 
 import java.util.ArrayList;
 import java.util.List;

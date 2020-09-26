@@ -1,10 +1,13 @@
 package principal;
 
+import huffman.Cadena;
+import huffman.Letra;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Consola {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -103,7 +106,7 @@ public class Main {
         }
         System.out.print("\nNumero de bits utilizados: " + total);
 
-        System.out.println();
+
     }
     public static boolean hayInterseccion(List<Cadena> cadenasList, Cadena cadena_comparar) {
         List<Letra> letrasActuales = new ArrayList<>();
